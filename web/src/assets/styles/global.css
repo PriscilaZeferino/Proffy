@@ -50,9 +50,10 @@
   button,
   textarea
   {
-      font: 500 1.6rem Poppins;
-      margin: 0;
-  }
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base)
+    
+}
 
   .container {
       height:90vh;
