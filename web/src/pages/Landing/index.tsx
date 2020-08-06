@@ -36,6 +36,7 @@ function Landing ()
                         Dar aulas
                     </Link>
                 </div>
+                
                 <span className="total-connections">
                     Total de 200 conexões já realizadas <img src={purpleHeartIcon} alt="Coração roxo"/>
                 </span>

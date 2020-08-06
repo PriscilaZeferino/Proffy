@@ -30,6 +30,7 @@
 
   html, body, #root {
       height: 100vh;
+      width: 100vw;
   }
 
   body
@@ -50,6 +51,7 @@
   textarea
   {
       font: 500 1.6rem Poppins;
+      margin: 0;
   }
 
   .container {
