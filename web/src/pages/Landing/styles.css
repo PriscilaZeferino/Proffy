@@ -103,7 +103,6 @@
         grid-template-areas: 
         "logo hero hero" "buttons buttons total";
     }
- }
 
  .logo-container {
      grid-area: logo;
@@ -139,5 +138,5 @@
      grid-area: total;
      justify-self: end;
  }
-
+ }
  
