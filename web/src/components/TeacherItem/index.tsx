@@ -1,6 +1,6 @@
 import React from 'react'
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
-import TeacherForm from '../../pages/TeacherForm';
+import './styles.css';
 
 function TeacherItem () {
     return (
