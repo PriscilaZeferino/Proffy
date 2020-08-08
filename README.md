@@ -40,14 +40,39 @@ Tabela de conteúdos
 
 #### PRÉ-REQUISITOS: 
 
-<p align="justify">Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas: Git, NodeJs, e npm (ou yarn). Além disso, é bom ter um editor como o VSCode para trabalhar com o código. </p>
+<p align="justify">Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas: 
+- <a href="https://git-scm.com/"> Git </a>
+- <a href="https://nodejs.org/en/"> NodeJS LTS </a>
+   - npm ou yarn
+   - <pre>
+      <span class="pl-c">
+         <span class="pl-c"># Instale o chocolatey pelo 
+         <a href="https://chocolatey.org/install"> site </a>
+      </span>
+         <span class="pl-c">
+         <span class="pl-c">#</span> Instale o NodeJS LTS </span>
+         $ cinst nodejs lts
+         <span class="pl-c">
+         <span class="pl-c">#</span> Se preferir o yarn</span>
+         $ cinst yarn
+      </pre>
+- Expo
+<pre>
+     <span class="pl-c">
+         <span class="pl-c">#</span> Instale o expo </span>
+         
+         ## yarn
+         $ yarn global add expo-cli
+         
+         ## npm
+         $ npm install expo-cli --global 
+</pre>
+
+- Editor de codigo como <a href="https://nodejs.org/en/"> VSCode </a>
+</p>
 
 ##### Executando a aplicação web (Frontend)
-<pre><span class="pl-c"><span class="pl-c">#</span> Clone este repositório</span>
-$ https://github.com/PriscilaZeferino/Proffy.git
-
-<span class="pl-c"><span class="pl-c">#</span> Acesse a pasta do projeto no terminal/cmd</span>
-$ <span class="pl-c1">cd</span> Proffy
+<pre>
 
 <span class="pl-c"><span class="pl-c">#</span> Vá para a pasta da aplicação front end </span>
 $ <span class="pl-c1">cd</span>  web
@@ -61,6 +86,35 @@ $ npm run start
 <span class="pl-c"><span class="pl-c">#</span> A aplicação será aberta na porta:3000 - acesse http://localhost:3000 </span>
 </pre>
 
+
+##### Executando o server (backend)
+<pre>
+
+<span class="pl-c"><span class="pl-c">#</span> Vá para a pasta da aplicação front end </span>
+$ <span class="pl-c1">cd</span>  server
+
+<span class="pl-c"><span class="pl-c">#</span> Instale as dependências</span>
+$ npm install
+
+<span class="pl-c"><span class="pl-c">#</span> Execute a aplicação em modo de desenvolvimento</span>
+$ npm run start
+ou
+$ yarn add start
+<span class="pl-c"><span class="pl-c">#</span> A aplicação será aberta na porta:3333 - acesse http://localhost:3333/ </span>
+</pre>
+
+
+##### Executando/alterando o banco de dados 
+
+<span class="pl-c"><span class="pl-c">#</span> Vá para a pasta da aplicação backend </span>
+$ <span class="pl-c1">cd</span>  server
+
+
+<span class="pl-c"><span class="pl-c">#</span> Execute a o banco de dados</span>
+$ yarn knex:migrate
+
+</pre>
+
 # 💡 STATUS DO PROJETO:
 
 <h4 align="justify"> 
@@ -69,8 +123,23 @@ $ npm run start
 
 ## 📌FEATURES
 
+   ### Plataforma
+
+   - [ ] Cadastro
+         - [ ] Salvar senha com criptografia
+
+   - [ ] Login 
+         - [ ] Entrar na platafora
+         - [ ] Visualizar perfil
+   
+   #### Perfil
+   
+   - [ ] Exibir dados do usuario
+   - [ ] Editar dados do usuário
+
    #### Estudar
    
+   - [ ] Criar um perfil de aluno
    - [ ] Listagem dos proffys disponiveis
    - [ ] Entre em contato com um Proffy
    - [ ] Favorite seus proffys favoritos
@@ -80,7 +149,7 @@ $ npm run start
         - [ ] Filtrar por hora
    
    #### Ensinar 
-   - [ ] Criar um perfil
+   - [ ] Criar um perfil de professor
    - [ ] Criar uma matéria
    
 
