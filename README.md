@@ -42,9 +42,34 @@ Tabela de conteúdos
 
 <p align="justify">Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas: 
 - <a href="https://git-scm.com/"> Git </a>
-- <a href="https://nodejs.org/en/"> NodeJS</a>
-- npm (ou yarn). 
-- <a href="https://nodejs.org/en/"> Editor de code como vsCode </a>
+- <a href="https://nodejs.org/en/"> NodeJS LTS </a>
+   - npm ou yarn
+   - <pre>
+      <span class="pl-c">
+         <span class="pl-c"># Instale o chocolatey pelo 
+         <a href="https://chocolatey.org/install"> site </a>
+      </span>
+         <span class="pl-c">
+         <span class="pl-c">#</span> Instale o NodeJS LTS </span>
+         $ cinst nodejs lts
+         <span class="pl-c">
+         <span class="pl-c">#</span> Se preferir o yarn</span>
+         $ cinst yarn
+      </pre>
+- Expo
+<pre>
+   <span class="pl-c">
+      <span class="pl-c">#</span> Instale o expo </span>
+         
+## yarn
+$ yarn global add expo-cli
+         
+## npm
+$ npm install expo-cli --global 
+   </span>
+<pre>
+
+- Editor de codigo como <a href="https://nodejs.org/en/"> VSCode </a>
 </p>
 
 ##### Executando a aplicação web (Frontend)
