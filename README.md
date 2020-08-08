@@ -32,10 +32,9 @@ Tabela de conteúdos
 - ReactJS
 - React Router Dom
 
-### Server (NodeJs + TypeScript)
-
-
+<!-- ### Server (NodeJs + TypeScript)
 ### Mobile (React Native + TypeScript)
+-->
 
 ## 📢 COMO USAR:
 
