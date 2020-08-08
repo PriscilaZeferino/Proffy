@@ -1,11 +1,11 @@
-import db from '../database/connections';
+import db from '../database/connection';
 import convertHourToMinutes from '../utils/convertHourToMinutes';
 import {Request, Response} from 'express';
 
 interface scheduleItem{
-    week_day: number,
-    from: string,
-    to:string
+    week_day: number;
+    from: string;
+    to:string;
 }
 
 export default class ClassesController
@@ -24,7 +24,7 @@ export default class ClassesController
                 {
                         error: "Missing filters to search classes"
                 }
-            );
+            )
         }
 
         const timeInMinutes = convertHourToMinutes(time);
@@ -71,8 +71,8 @@ export default class ClassesController
                 name,
                 avatar,
                 whatsapp,
-                bio,
-            });
+                bio
+            })
         
             const user_id = insertedUsersIds[0];
             
@@ -82,7 +82,7 @@ export default class ClassesController
                     cost,
                     user_id,
                 }
-            );
+            )
         
             const class_id = insertedClassesIds[0];
         
@@ -92,15 +92,16 @@ export default class ClassesController
                         class_id,
                         week_day: scheduleItem.week_day,
                         from: convertHourToMinutes(scheduleItem.from),
-                        to: convertHourToMinutes(scheduleItem.to),
-        
-                    };
-                });
+                        to: convertHourToMinutes(scheduleItem.to)
+                    }
+                })
                 
             await trx('class_schedule').insert(classSchedule);
         
             await trx.commit();
             
+            return response.status(201).send();
+
         }
         catch (err)
         {
@@ -110,7 +111,7 @@ export default class ClassesController
                 {
                     error: 'Unexpected error while creating new class'
                 }
-            );
-        };
-}
+            )
+        }
+    }
 }
