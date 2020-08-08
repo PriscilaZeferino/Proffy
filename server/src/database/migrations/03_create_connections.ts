@@ -3,10 +3,10 @@ import Knex from 'knex';
 //Criar ao tabela, alterar alguma coisa...
 export async function up (knex: Knex)
 {
-    return knex.schema.createTable('connection', table => {
+    return knex.schema.createTable('connections', table => {
         table.increments('id').primary();
 
-        table.integer('class_id')
+        table.integer('user_id')
             .notNullable()
             .references('id')
             .inTable('users')
@@ -14,7 +14,7 @@ export async function up (knex: Knex)
             .onDelete('CASCADE');
 
             table.timestamp("created_at")
-                .defaultTo("now")
+                .defaultTo(knex.raw("CURRENT_TIMESTAMP"))
                 .notNullable();
 });
 
@@ -23,5 +23,5 @@ export async function up (knex: Knex)
 //Se algo der errado, fazer o contrario do up
 export async function down (knex: Knex)
 {
-    return knex.schema.dropTable('class_schedule');
+    return knex.schema.dropTable('connections');
 }
