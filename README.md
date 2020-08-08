@@ -67,7 +67,7 @@ $ yarn global add expo-cli
 ## npm
 $ npm install expo-cli --global 
    </span>
-<pre>
+</pre>
 
 - Editor de codigo como <a href="https://nodejs.org/en/"> VSCode </a>
 </p>
