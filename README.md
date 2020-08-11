@@ -45,14 +45,14 @@ Tabela de conteúdos
 
 #### PRÉ-REQUISITOS: 
 
-<p align="justify">Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas: 
-- <a href="https://git-scm.com/"> Git </a>
-- <a href="https://nodejs.org/en/"> NodeJS LTS </a>
-   - npm ou yarn
-   - <pre>
+<p align="justify">
+	<p> Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas: </p>
+<p> - <a href="https://git-scm.com/"> Git </a> </p>
+<p> - <a href="https://nodejs.org/en/"> NodeJS LTS </a> </p>
+<p> - npm ou yarn </p>
+<pre>  
       <span class="pl-c">
-         <span class="pl-c"># Instale o chocolatey pelo 
-         <a href="https://chocolatey.org/install"> site </a>
+         <span class="pl-c"># Instale o chocolatey conforme o <a href="https://chocolatey.org/install"> site </a>
       </span>
          <span class="pl-c">
          <span class="pl-c">#</span> Instale o NodeJS LTS </span>
@@ -65,14 +65,11 @@ Tabela de conteúdos
 <pre>
    <span class="pl-c">
       <span class="pl-c">#</span> Instale o expo </span>
-        <span class="pl-c">#</span> Via yarn: </span>
-	$ yarn global add expo-cli
-	<span class="pl-c">#</span> Via npm </span>
-	$ npm install expo-cli --global 
+	$ yarn global add expo-cli or npm install expo-cli --global 
    </span>
 </pre>
 
-- Editor de codigo como <a href="https://nodejs.org/en/"> VSCode </a>
+<p>- Editor de codigo como <a href="https://nodejs.org/en/"> VSCode </a></p>
 </p>
 
 ##### Executando a aplicação web (Frontend)
@@ -85,7 +82,7 @@ $ <span class="pl-c1">cd</span>  web
 $ npm install
 
 <span class="pl-c"><span class="pl-c">#</span> Execute a aplicação em modo de desenvolvimento</span>
-$ npm run start
+$ npm run start or yarn start
 
 <span class="pl-c"><span class="pl-c">#</span> A aplicação será aberta na porta:3000 - acesse http://localhost:3000 </span>
 </pre>
@@ -101,9 +98,7 @@ $ <span class="pl-c1">cd</span>  server
 $ npm install
 
 <span class="pl-c"><span class="pl-c">#</span> Execute a aplicação em modo de desenvolvimento</span>
-$ npm run start
-ou
-$ yarn add start
+$ npm run start or yarn start
 <span class="pl-c"><span class="pl-c">#</span> A aplicação será aberta na porta:3333 - acesse http://localhost:3333/ </span>
 </pre>
 
@@ -115,7 +110,7 @@ $ <span class="pl-c1">cd</span>  server
 
 
 <span class="pl-c"><span class="pl-c">#</span> Execute a o banco de dados</span>
-$ yarn knex:migrate
+$ yarn knex:migrate or npx knex:migrate
 
 </pre>
 
