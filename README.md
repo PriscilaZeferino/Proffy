@@ -60,12 +60,10 @@ Tabela de conteúdos
 <pre>
    <span class="pl-c">
       <span class="pl-c">#</span> Instale o expo </span>
-         
-## yarn
-$ yarn global add expo-cli
-         
-## npm
-$ npm install expo-cli --global 
+        <span class="pl-c">#</span> Via yarn: </span>
+	$ yarn global add expo-cli
+	<span class="pl-c">#</span> Via npm </span>
+	$ npm install expo-cli --global 
    </span>
 </pre>
 
@@ -106,7 +104,7 @@ $ yarn add start
 
 
 ##### Executando e alterando o banco de dados 
-
+<pre>
 <span class="pl-c"><span class="pl-c">#</span> Vá para a pasta da aplicação backend </span>
 $ <span class="pl-c1">cd</span>  server
 
