@@ -32,9 +32,14 @@ Tabela de conteúdos
 - ReactJS
 - React Router Dom
 
-<!-- ### Server (NodeJs + TypeScript)
+### Server (NodeJs + TypeScript)
+- Axios
+- Knex
+
 ### Mobile (React Native + TypeScript)
--->
+- React Native
+- JavaScript/TypeScript
+- Expo
 
 ## 📢 COMO USAR:
 
