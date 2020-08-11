@@ -32,9 +32,14 @@ Tabela de conteúdos
 - ReactJS
 - React Router Dom
 
-<!-- ### Server (NodeJs + TypeScript)
+### Server (NodeJs + TypeScript)
+- Axios
+- Knex
+
 ### Mobile (React Native + TypeScript)
--->
+- React Native
+- JavaScript/TypeScript
+- Expo
 
 ## 📢 COMO USAR:
 
@@ -103,7 +108,7 @@ $ yarn add start
 </pre>
 
 
-##### Executando e alterando o banco de dados 
+##### Executando o banco de dados 
 <pre>
 <span class="pl-c"><span class="pl-c">#</span> Vá para a pasta da aplicação backend </span>
 $ <span class="pl-c1">cd</span>  server
@@ -122,34 +127,20 @@ $ yarn knex:migrate
 
 ## 📌FEATURES
 
-   ### Plataforma
-
-   - [ ] Cadastro
-         - [ ] Salvar senha com criptografia
-
-   - [ ] Login 
-         - [ ] Entrar na platafora
-         - [ ] Visualizar perfil
-   
-   #### Perfil
-   
-   - [ ] Exibir dados do usuario
-   - [ ] Editar dados do usuário
-
    #### Estudar
    
-   - [ ] Criar um perfil de aluno
-   - [ ] Listagem dos proffys disponiveis
-   - [ ] Entre em contato com um Proffy
-   - [ ] Favorite seus proffys favoritos
-   - [ ] Filtre os proffys
-        - [ ] Filtrar por matéria
-        - [ ] Filtrar por dia da semana
-        - [ ] Filtrar por hora
+   - [x] Listagem dos proffys disponiveis
+   - [x] Entre em contato com um Proffy
+   - [x] Favorite seus proffys favoritos
+   - [x] Filtre os proffys
+        - [x] Filtrar por matéria
+        - [x] Filtrar por dia da semana
+        - [x] Filtrar por hora
    
    #### Ensinar 
-   - [ ] Criar um perfil de professor
-   - [ ] Criar uma matéria
+   
+   - [x] Criar um perfil de professor
+   - [x] Criar uma matéria
    
 
 ## 📃 LICENÇA
