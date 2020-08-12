@@ -1,6 +1,9 @@
 <img src="/Cover.png">
 
 ![GitHub license](https://img.shields.io/static/v1?label=License&message=MIT&color=#CCC&style=<plastic>>)
+[![Node.js badge](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white&link=https://nodejs.org/en/)](https://nodejs.org/en/)
+[![React badge](https://img.shields.io/badge/-ReactJS-13B5EA?style=flat-square&logo=react&logoColor=white&link=https://reactjs.org/)](https://reactjs.org/)
+[![ReactNative badge](https://img.shields.io/badge/-React_Native-563D7C?style=flat-square&logo=reactJS&logoColor=white&link=https://reactnative.dev/)](https://reactnative.dev/)
 
 # 📚 PROFFY 
 
@@ -148,5 +151,4 @@ Este projeto está sob a licença <a href="https://github.com/PriscilaZeferino/P
 ##### ✉ Contato:
 
 ##### Linkedin: <a href="https://www.linkedin.com/in/priscila-zeferino-594b5b175/"> Priscila Zeferino</a>
-
 ##### E-mail: priscila.zeferino23@gmail.com
