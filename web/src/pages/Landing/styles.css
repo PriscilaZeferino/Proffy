@@ -10,6 +10,9 @@
     background: var(--color-primary);
 }
 
+.logo {
+    fill: black;
+}
 .logo-container img
 {
     height: 10rem;

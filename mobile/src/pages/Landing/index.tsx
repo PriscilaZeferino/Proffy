@@ -60,7 +60,7 @@ function Landing()
             </View>
            
             <Text style={styles.totalConnections}>
-                Total de {totalConnections} conexões já realizadas {' '}
+                Total de {totalConnections} conexões já realizadas {' '} 
                 <Image source={heartIcon}/>
             </Text>
         </View>
