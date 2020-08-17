@@ -32,7 +32,7 @@ function TeacherList() {
         setTeachers(response.data)
 
     }
-
+ 
     return (
         <div id="page-teacher-list" className="container">
             <PageHeader title="Estes são os proffys disponiveis.">
@@ -66,7 +66,7 @@ function TeacherList() {
                                 {value: '1', label: 'Segunda-feira'},
                                 {value: '2', label: 'Terça-feira'},
                                 {value: '3', label: 'Quarta-feira'},
-                                {value: '4', label: 'FQuinta-feira'},
+                                {value: '4', label: 'Quinta-feira'},
                                 {value: '5', label: 'Sexta-feira'},
                                 {value: '6', label: 'Sabádo'},
                             ]
@@ -84,6 +84,7 @@ function TeacherList() {
                 </form>
             </PageHeader>
             <main>
+                
                 {teachers.map((teacher:Teacher) => {
                 return <TeacherItem key={teacher.id} teacher={teacher}/>
                 })}
