@@ -9,15 +9,12 @@
 Tabela de conteúdos
 =================
 
-<p align="center">
- <a href="#-objetivo">Objetivo</a> •
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-como-usar">Como usar</a> • 
- <a href="#-status-do-projeto">Status do projeto</a> •
- <a href="#-licença">Licença</a> • 
- <a href="#-autora">Autora</a>
-
-</p>
+• [Objetivo](#-objetivo) 
+• [Tecnologia](#-tecnologias)
+• [Como usar](#-como-usar)
+• [Status do projeto](#-status-do-projeto)
+• [Licença](#-licença)
+• [Autora](#-autora)
 
 # 🚀 OBJETIVO: 
 
